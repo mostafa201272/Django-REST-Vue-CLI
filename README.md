@@ -5,8 +5,8 @@ This Repo Contain a Django web application with Vue CLI
 # Steps to Create Django application with Vue CLI
 In this section we will create django project with django environment and create vue cli application with vue environment.
 
-> ## [1] Django Project Setup
->> ### 1. Create Django Environment
+> ## [ 1 ] Django Project Setup
+>> ### 1.1. Create Django Environment
 
 >>> **1. Create an Isolation Area For Project (For Production)**
 >>>> - command: `mkdir "Environment Folder name"`
@@ -41,7 +41,7 @@ In this section we will create django project with django environment and create
 
 <hr>
 
->> ### 2. Create Django Project and add REST Framework
+>> ### 1.2. Create Django Project and add REST Framework
 
 >>> **1. Activate Environment**
 >>>> - command: `YOUR_DIRECTORY_PATH/Environment_DIRECTORY/Scripts/activate`
@@ -64,5 +64,5 @@ In this section we will create django project with django environment and create
 >>>> 5.2. in `INSTALLED_APPS` array add the `rest_framework` and `rest_framework.authtoken`
 
 <hr>
-> ## [2] Vue CLI Project Setup
->>
+> ## [ 2 ] Vue CLI Project Setup
+>> ### 2.1. Creating Vue Virtual Environment 
