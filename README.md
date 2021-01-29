@@ -17,26 +17,26 @@ In this section we will create django project with django environment and create
 >>> 3. Install The Virtual Environment
 >>>> - command: `python -m venv "Environment_DIRECTORY_PATH" `
 
->>> 5. Activate Environment
+>>> 4. Activate Environment
 >>>> - command: `YOUR_DIRECTORY_PATH/Environment_DIRECTORY/Scripts/activate`
 >>>> - ***OR***
 >>>> - Change your current directory to environment Scripts Folder and activate
 >>>>> 1. command: `cd YOUR_DIRECTORY_PATH/Environment_DIRECTORY/Scripts/`
 >>>>> 2. command: `activate`
 
->>> 6. Upgrade pip
+>>> 5. Upgrade pip
 >>>> - command: `python -m pip install --upgrade pip`
 
->>> 7. Install Django
+>>> 6. Install Django
 >>>> - command: `pip install django`
 
->>> 8. Check the Django Version
+>>> 7. Check the Django Version
 >>>> - command: `django-admin --version`
 
->>> 9. Install Django REST Framework
+>>> 8. Install Django REST Framework
 >>>> - command: `pip install djangorestframework`
 
->>> 10. Deactivate the Virtual Environment
+>>> 9. Deactivate the Virtual Environment
 >>>> - command: `deactivate`
 
 
