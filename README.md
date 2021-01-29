@@ -64,5 +64,6 @@ In this section we will create django project with django environment and create
 >>>> 5.2. in `INSTALLED_APPS` array add the `rest_framework` and `rest_framework.authtoken`
 
 <hr>
+
 > ## [ 2 ] Vue CLI Project Setup
->> ### 2.1. Creating Vue Virtual Environment 
+>> ### 2.1. Creating Vue Virtual Environment
