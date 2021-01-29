@@ -37,7 +37,7 @@ In this section we will create django project with django environment and create
 >>>> - command: `pip install djangorestframework`
 
 >>> 10. Deactivate the Virtual Environment
->>>> - command: deactivate
+>>>> - command: `deactivate`
 
 
 > ## [2] Vue CLI Project Setup
