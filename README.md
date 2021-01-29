@@ -39,6 +39,8 @@ In this section we will create django project with django environment and create
 >>> **9. Deactivate the Virtual Environment**
 >>>> - command: `deactivate`
 
+<hr>
+
 >> ### 2. Create Django Project and add REST Framework
 
 >>> **1. Activate Environment**
