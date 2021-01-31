@@ -78,5 +78,4 @@ In this section we will create django project with django environment and create
 
 | step | code | description |
 | ---- | ---- | ----------- |
-| 1    | `pip`| Pip Install |
-  
+| 1    | ``` pip ```| Pip Install |
