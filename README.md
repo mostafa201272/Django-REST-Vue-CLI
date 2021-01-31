@@ -74,4 +74,4 @@ In this section we will create django project with django environment and create
 > ## [ 3 ] Linux Installation
 >> ## 3.1. Python Requirements
 
- 
+>> ## 3.1. Vue CLI Requirements 
