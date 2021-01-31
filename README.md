@@ -72,3 +72,6 @@ In this section we will create django project with django environment and create
 <hr>
 
 > ## [ 3 ] Linux Installation
+>> ## 3.1. Python Requirements
+
+ 
