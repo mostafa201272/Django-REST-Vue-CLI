@@ -68,3 +68,14 @@ In this section we will create django project with django environment and create
 > ## [ 2 ] Vue CLI Project Setup
 >> ### 2.1. Creating Vue Virtual Environment
 >>> Instructions Link: `https://dev.to/ericnanhu/build-a-single-page-app-using-django-vue-js-4c85`
+
+<hr>
+
+> ## [ 3 ] Linux Installation
+>> ## 3.1. Python Requirements
+
+>> ## 3.1. Vue CLI Requirements
+
+| step | code | description |
+| ---- | ---- | ----------- |
+| 1    | 1 | 1 |
