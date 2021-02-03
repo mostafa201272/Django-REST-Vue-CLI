@@ -80,3 +80,4 @@ In this section we will create django project with django environment and create
 | ----  | ---- | ----------- |
 | 1     | 1 | 1 |
 | 2     | 2 | From Linux     |
+| 3     | 3 | From Linux     |
