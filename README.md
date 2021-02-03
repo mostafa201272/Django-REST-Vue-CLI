@@ -81,3 +81,8 @@ In this section we will create django project with django environment and create
 | 1     | 1 | 1 |
 | 2     | 2 | From Linux     |
 | 3     | 3 | From Linux     |
+| 4     | 4 | to test VsCode Preview |
+| 5     | 5 | Testing a gain |
+| 6     | 6 | Test Complete |
+| 7     | 7 | Testing Preview Feature again|
+
