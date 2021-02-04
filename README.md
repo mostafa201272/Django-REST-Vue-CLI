@@ -99,6 +99,57 @@ In this section we will create django project with django environment and create
 
 <hr>
 
+# [ 3 ] Vue Configuration File Code
+
+> For Windows
+
+1. Change your currrent directory to `vue_env` directory.
+2. Create new file called `vue.config.js`.
+3. Copy next code in it
+
+```
+const BundleTracker = require("webpack-bundle-tracker");
+
+module.exports = {
+  publicPath: "http://127.0.0.1:8080/",
+  outputDir: "./dist/",
+
+  chainWebpack: (config) => {
+    config
+      .plugin("BundleTracker")
+      .use(BundleTracker, [{ filename: "./webpack-stats.json" }]);
+
+    config.output.filename("bundle.js");
+
+    config.optimization.splitChunks(false);
+
+    config.resolve.alias.set("__STATIC__", "static");
+
+    config.devServer
+      // the first 3 lines of the following code have been added to the configuration
+      .public("http://127.0.0.1:8080")
+      .host("127.0.0.1")
+      .port(8080)
+      .hotOnly(true)
+      .watchOptions({ poll: 1000 })
+      .https(false)
+      .disableHostCheck(true)
+      .headers({ "Access-Control-Allow-Origin": ["*"] });
+  }
+
+  // uncomment before executing 'npm run build'
+  // css: {
+  //     extract: {
+  //       filename: 'bundle.css',
+  //       chunkFilename: 'bundle.css',
+  //     },
+  // }
+};
+
+```
+
+<hr>
+
 > ## [ 3 ] Linux Installation
 >
 > > ## 3.1. Python Requirements
