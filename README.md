@@ -101,7 +101,7 @@ In this section we will create django project with django environment and create
 
 # [ 3 ] Vue Configuration File Code
 
-> For Windows
+> For Windows, Linux, Mac OS
 
 1. Change your currrent directory to `vue_env` directory.
 2. Create new file called `vue.config.js`.
