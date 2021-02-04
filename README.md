@@ -129,6 +129,23 @@ In this section we will create django project with django environment and create
 | 10  | Create Vue Configuration File                           | `touch vue.config.js`                                                                    |
 | 11  | copy configurations                                     | **_show it in vue configuration file code section_**                                     |
 
+> ### For **Arch-based** Linux Distributions
+
+| ID  | Step                                                    | Instruction                                          |
+| --- | ------------------------------------------------------- | ---------------------------------------------------- |
+| 1   | Install nvm – Node Version Manager                      | `yay -S nvm`                                         |
+| 2   | Load nvm                                                | `source /usr/share/nvm/init-nvm.sh`                  |
+| 3   | Install Node.js and npm                                 | `nvm -g install npm`                                 |
+| 4   | Update System                                           | `sudo pacman -Syu` **_OR_** `sudo pacman -Syyu`      |
+| 5   | Upgrade System                                          | `sudo apt upgrade`                                   |
+| 6   | install vue cli                                         | `npm install -g @vue/cli`                            |
+| 7   | change your directory to django Application directory   | `cd APPLICATION_PATH/Django_App `                    |
+| 8   | Create Vue Environment                                  | `vue create vue_env `                                |
+| 9   | change directory to vue environment directory           | `cd vue_env `                                        |
+| 10  | Install Vue Webpack Bundle Tracker (i.e choose version) | `npm install webpack-bundle-tracker@0.4.3`           |
+| 11  | Create Vue Configuration File                           | `touch vue.config.js`                                |
+| 12  | copy configurations                                     | **_show it in vue configuration file code section_** |
+
 <hr>
 
 # [ 3 ] Vue Configuration File Code
