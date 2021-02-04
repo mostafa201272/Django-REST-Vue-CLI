@@ -83,7 +83,7 @@ In this section we will create django project with django environment and create
 
 # [ 2 ] Vue CLI Project Setup
 
-> ### For Windows
+> ### For Windows && Mac OS
 
 | ID  | Step                                                    | Instruction                                          |
 | --- | ------------------------------------------------------- | ---------------------------------------------------- |
@@ -96,6 +96,22 @@ In this section we will create django project with django environment and create
 | 7   | Install Vue Webpack Bundle Tracker (i.e choose version) | `npm install webpack-bundle-tracker@0.4.3`           |
 | 8   | Create Vue Configuration File                           | `touch vue.config.js`                                |
 | 9   | copy configurations                                     | **_show it in vue configuration file code section_** |
+
+> ### For Debian-based Linux Distributions
+
+| ID  | Step                                                    | Instruction                                          |
+| --- | ------------------------------------------------------- | ---------------------------------------------------- |
+| 1   | install node JS                                         | `sudo apt install nodejs`                            |
+| 2   | install node npm                                        | `sudo apt install npm`                               |
+| 3   | Update System                                           | `sudo apt update`                                    |
+| 4   | Upgrade System                                          | `sudo apt upgrade`                                   |
+| 5   | install vue cli                                         | `npm install -g @vue/cli`                            |
+| 6   | change your directory to django Application directory   | `cd APPLICATION_PATH/Django_App `                    |
+| 7   | Create Vue Environment                                  | `vue create vue_env `                                |
+| 8   | change directory to vue environment directory           | `cd vue_env `                                        |
+| 9   | Install Vue Webpack Bundle Tracker (i.e choose version) | `npm install webpack-bundle-tracker@0.4.3`           |
+| 10  | Create Vue Configuration File                           | `touch vue.config.js`                                |
+| 11  | copy configurations                                     | **_show it in vue configuration file code section_** |
 
 <hr>
 
