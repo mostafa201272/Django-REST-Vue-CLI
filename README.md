@@ -119,32 +119,14 @@ In this section we will create django project with django environment and create
 | --- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | 1   | install node JS                                         | `sudo dnf install nodejs`                                                                |
 | 2   | install node npm                                        | Should installed with step 1 command if not run this command <br> `sudo dnf install npm` |
-| 3   | Update System                                           | `sudo apt update`                                                                        |
-| 4   | Upgrade System                                          | `sudo apt upgrade`                                                                       |
-| 5   | install vue cli                                         | `npm install -g @vue/cli`                                                                |
-| 6   | change your directory to django Application directory   | `cd APPLICATION_PATH/Django_App `                                                        |
-| 7   | Create Vue Environment                                  | `vue create vue_env `                                                                    |
-| 8   | change directory to vue environment directory           | `cd vue_env `                                                                            |
-| 9   | Install Vue Webpack Bundle Tracker (i.e choose version) | `npm install webpack-bundle-tracker@0.4.3`                                               |
-| 10  | Create Vue Configuration File                           | `touch vue.config.js`                                                                    |
-| 11  | copy configurations                                     | **_show it in vue configuration file code section_**                                     |
-
-> ### For **Arch-based** Linux Distributions
-
-| ID  | Step                                                    | Instruction                                          |
-| --- | ------------------------------------------------------- | ---------------------------------------------------- |
-| 1   | Install nvm – Node Version Manager                      | `yay -S nvm`                                         |
-| 2   | Load nvm                                                | `source /usr/share/nvm/init-nvm.sh`                  |
-| 3   | Install Node.js and npm                                 | `nvm -g install npm`                                 |
-| 4   | Update System                                           | `sudo pacman -Syu` **_OR_** `sudo pacman -Syyu`      |
-| 5   | Upgrade System                                          | `sudo apt upgrade`                                   |
-| 6   | install vue cli                                         | `npm install -g @vue/cli`                            |
-| 7   | change your directory to django Application directory   | `cd APPLICATION_PATH/Django_App `                    |
-| 8   | Create Vue Environment                                  | `vue create vue_env `                                |
-| 9   | change directory to vue environment directory           | `cd vue_env `                                        |
-| 10  | Install Vue Webpack Bundle Tracker (i.e choose version) | `npm install webpack-bundle-tracker@0.4.3`           |
-| 11  | Create Vue Configuration File                           | `touch vue.config.js`                                |
-| 12  | copy configurations                                     | **_show it in vue configuration file code section_** |
+| 3   | Update & Upgrade System                                 | `sudo dnf upgrade --refresh`                                                             |
+| 4   | install vue cli                                         | `npm install -g @vue/cli`                                                                |
+| 5   | change your directory to django Application directory   | `cd APPLICATION_PATH/Django_App `                                                        |
+| 6   | Create Vue Environment                                  | `vue create vue_env `                                                                    |
+| 7   | change directory to vue environment directory           | `cd vue_env `                                                                            |
+| 8   | Install Vue Webpack Bundle Tracker (i.e choose version) | `npm install webpack-bundle-tracker@0.4.3`                                               |
+| 9   | Create Vue Configuration File                           | `touch vue.config.js`                                                                    |
+| 10  | copy configurations                                     | **_show it in vue configuration file code section_**                                     |
 
 <hr>
 
