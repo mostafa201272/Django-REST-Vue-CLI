@@ -2,13 +2,11 @@
 
 This Repo Contain a Django web application with Vue CLI
 
-# Steps to Create Django application with Vue CLI
+# Quick Start
 
-In this section we will create django project with django environment and create vue cli application with vue environment.
+Follow the following steps to start this application
 
-> ## [ 1 ] Django Project Setup
->
-> > ### 1.1. Create Django Environment
+# Create Django Environment
 
 | ID  | Step                                                       | Instruction                                                  |
 | --- | ---------------------------------------------------------- | ------------------------------------------------------------ |
