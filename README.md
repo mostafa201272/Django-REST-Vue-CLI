@@ -8,12 +8,22 @@ Follow the following steps to start this application
 
 > ### For Windows & Mac OS
 
-| ID  | Step                         | Instruction                                                          |
-| --- | ---------------------------- | -------------------------------------------------------------------- |
-| 1   | Download and Install Python  | From `https://www.python.org/downloads/`                             |
-| 2   | Download and Install Node JS | From `https://nodejs.org/en/download/`                               |
-| 3   | Download and Install git     | From `https://git-scm.com/downloads`                                 |
-| 4   | Clone this Repo              | `git clone https://github.com/mostafa201272/Django-REST-Vue-CLI.git` |
+| ID  | Step                                       | Instruction                                                          |
+| --- | ------------------------------------------ | -------------------------------------------------------------------- |
+| 1   | Download and Install Python                | From `https://www.python.org/downloads/`                             |
+| 2   | Download and Install Node JS               | From `https://nodejs.org/en/download/`                               |
+| 3   | Download and Install git                   | From `https://git-scm.com/downloads`                                 |
+| 4   | Download Vue CLI                           | `npm install -g @vue/cli`                                            |
+| 4   | Clone this Repo                            | `git clone https://github.com/mostafa201272/Django-REST-Vue-CLI.git` |
+| 5   | Change your Directory to Project Directory | `cd Django-REST-Vue-CLI`                                             |
+| 6   | Activate The environment                   | `Django_env\Scripts\activate`                                        |
+| 7   | Change Directory to Django App             | `cd Django_Vue_Project`                                              |
+| 8   | Run Django Server                          | `python manage.py runserver`                                         |
+| 9   | Open new Terminal or CMD in the same path  | `cd YOUR_PATH/Django-REST-Vue-CLI/Django_Vue_Project`                |
+| 10  | Change directory to vue environment        | `cd vue_env`                                                         |
+| 11  | Install Node js modules                    | `npm install`                                                        |
+| 12  | Run node server                            | `npm run serve`                                                      |
+| 13  | open you browser type server URL           | `http://127.0.0.1:8000/vue-app/`                                     |
 
 # Create Django Environment
 
