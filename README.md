@@ -8,11 +8,12 @@ Follow the following steps to start this application
 
 > ### For Windows & Mac OS
 
-| ID  | Step                         | Instruction                              |
-| --- | ---------------------------- | ---------------------------------------- |
-| 1   | Download and Install Python  | From `https://www.python.org/downloads/` |
-| 2   | Download and Install Node JS | From `https://nodejs.org/en/download/`   |
-| 3   | Download and Install git     | From `https://git-scm.com/downloads`     |
+| ID  | Step                         | Instruction                                                                     |
+| --- | ---------------------------- | ------------------------------------------------------------------------------- |
+| 1   | Download and Install Python  | From `https://www.python.org/downloads/`                                        |
+| 2   | Download and Install Node JS | From `https://nodejs.org/en/download/`                                          |
+| 3   | Download and Install git     | From `https://git-scm.com/downloads`                                            |
+| 4   | Clone this Repo              | command => `git clone https://github.com/mostafa201272/Django-REST-Vue-CLI.git` |
 
 # Create Django Environment
 
