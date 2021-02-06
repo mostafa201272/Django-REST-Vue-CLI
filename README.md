@@ -6,6 +6,14 @@ This Repo Contain a Django web application with Vue CLI
 
 Follow the following steps to start this application
 
+> ### For Windows & Mac OS
+
+| ID  | Step                         | Instruction                              |
+| --- | ---------------------------- | ---------------------------------------- |
+| 1   | Download and Install Python  | From `https://www.python.org/downloads/` |
+| 2   | Download and Install Node JS | From `https://nodejs.org/en/download/`   |
+| 3   | Download and Install git     | From `https://git-scm.com/downloads`     |
+
 # Create Django Environment
 
 | ID  | Step                                                       | Instruction                                                  |
@@ -130,11 +138,3 @@ module.exports = {
 };
 
 ```
-
-<hr>
-
-> ## [ 3 ] Linux Installation
->
-> > ## 3.1. Python Requirements
-
-> > ## 3.1. Vue CLI Requirements
